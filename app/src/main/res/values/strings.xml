@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">exersiceNetWork</string>
+    <string name="hits_found">%1$d hits were found for %2$s</string>
+    <string name="searching">searching...</string>
+    <string name="found">found</string>
+    <string name="error_code">Error with the code</string>
+    <string name="not_right">something is not right  :(</string>
+    <string name="hello">hello</string>
+    <string name="type_something">type something</string>
+    <string name="search">Search</string>
+</resources>
