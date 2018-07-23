@@ -8,7 +8,7 @@ import android.view.View;
 
 import com.example.oran.exersicenetwork.R;
 
-public class Main2Activity extends AppCompatActivity {
+public class AboutActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

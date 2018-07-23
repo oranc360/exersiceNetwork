@@ -24,7 +24,7 @@ import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-public class MainActivity extends AppCompatActivity {
+public class SearchActivity extends AppCompatActivity {
 
     private PixabayService pixabayService;
 
@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void toAboutAvtivity(View view) {
-        Intent intent = new Intent(this , Main2Activity.class);
+        Intent intent = new Intent(this , AboutActivity.class);
         startActivity(intent);
     }
 }
