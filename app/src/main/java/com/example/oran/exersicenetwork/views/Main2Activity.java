@@ -27,6 +27,7 @@ public class Main2Activity extends AppCompatActivity {
     }
 
 
+
     public void toResources(View view) {
         switch (view.getId()){
             case R.id.tvPixabay:
