@@ -8,4 +8,13 @@
     <string name="hello">hello</string>
     <string name="type_something">type something</string>
     <string name="search">Search</string>
+    <string name="pixabay_website">pixabay website</string>
+    <string name="about">about</string>
+    <string name="used">used :</string>
+    <string name="back_to_search">back to search</string>
+    <string name="to_create_the_app_i_used_open_sources_like">to create the app i used open sources like :</string>
+    <string name="picasso">Picasso</string>
+    <string name="retrofit">Retrofit</string>
+    <string name="pixabay">Pixabay</string>
+    <string name="about_the_app">About the app</string>
 </resources>

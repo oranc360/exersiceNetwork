@@ -6,7 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-import com.example.oran.exersicenetwork.network.Hits;
+import com.example.oran.exersicenetwork.network.pojo.Hits;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
@@ -29,19 +29,23 @@ public class HitsAdapter extends RecyclerView.Adapter<HitsAdapter.ViewHolder> {
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
         Hits hit = hits.get(position);
-        Picasso.with(holder.view.getContext()).load(hit.getWebformatURL()).placeholder(R.drawable.ic_launcher_background).into(holder.hitImageView);
+        Picasso.with(holder.view.getContext()).load(hit.getWebformatURL()).placeholder(R.drawable.pixabay0).into(holder.hitImageView);
     }
 
     @Override
     public int getItemCount() {
-        return hits.size();
+        if (hits == null){
+            return 0;
+        }else {
+            return hits.size();
+        }
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
         View view;
         ImageView hitImageView;
 
-        public ViewHolder(View itemView , ImageView hitImageView) {
+        public ViewHolder( View itemView , ImageView hitImageView) {
             super(itemView);
             this.view = itemView;
             this.hitImageView = hitImageView;

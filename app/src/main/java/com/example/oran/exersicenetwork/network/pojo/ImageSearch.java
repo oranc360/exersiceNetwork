@@ -1,4 +1,4 @@
-package com.example.oran.exersicenetwork.network;
+package com.example.oran.exersicenetwork.network.pojo;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

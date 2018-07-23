@@ -1,5 +1,7 @@
 package com.example.oran.exersicenetwork.network;
 
+import com.example.oran.exersicenetwork.network.pojo.ImageSearch;
+
 import retrofit2.http.GET;
 import retrofit2.http.Query;
 
