@@ -1,7 +1,9 @@
 # about
-the project is a searching pictures from the pixabay website.
+This project is a searching pictures app.
+The project was built for study cases.
 
 # Resources 
-- [pixabay](https://pixabay.com/) 
-- [retrofit](http://square.github.io/retrofit/) 
-- [picasso](http://square.github.io/picasso/)
+### While building this project I used the following services/libraries/open sources:
+- [pixabay](https://pixabay.com/) - Image search API 
+- [retrofit](http://square.github.io/retrofit/)  - REST
+- [picasso](http://square.github.io/picasso/) - Loading images
