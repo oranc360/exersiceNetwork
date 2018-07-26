@@ -1,5 +1,5 @@
 # about
-This project is a searching pictures app.
+This project is a searching pictures app.  
 The project was built for study cases.
 
 # Resources 
